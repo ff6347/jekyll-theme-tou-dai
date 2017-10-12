@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-tou-dai"
-  spec.version       = "0.1.1"
+  spec.version       = "0.2.0"
   spec.authors       = ["fabianmoronzirfas"]
   spec.email         = ["fabian.moron.zirfas@gmail.com"]
 
@@ -15,5 +15,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll", "~> 3.6"
   spec.add_runtime_dependency "jekyll-nav-gen", "~> 0.0.5"
   spec.add_runtime_dependency "jekyll-tidy", "~> 0.2.2"
+  spec.add_runtime_dependency "jekyll-sitemap", "~> 1.1.1"
+  spec.add_runtime_dependency "jekyll-feed", "~> 0.9.2"
+  spec.add_runtime_dependency "jekyll-json-feed", "~> 1.0.0"
   spec.add_development_dependency "bundler", "~> 1.12"
 end
