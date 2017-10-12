@@ -34,7 +34,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-plugins: [jekyll-paginate, jekyll-nav-gen, jekyll-tidy]
 
 sass: # Sass configuration - compressed and sass_dir of the root Jekyll assets folder.
     style: compressed
