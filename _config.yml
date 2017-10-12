@@ -43,8 +43,6 @@ jekyll_tidy: # Compress the html and beautify it.
     compress_html: true
 
 
-nav_gen_debug: true
-
 # -----
 #
 # own variables
