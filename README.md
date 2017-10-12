@@ -2,6 +2,8 @@
 
 > 徒弟 (Tou Dai) – Student / Disciple
 
+More a boilerplate then a fully fledged theme. Written for use with [Netlifly CMS](https://www.netlifycms.org/).  
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
