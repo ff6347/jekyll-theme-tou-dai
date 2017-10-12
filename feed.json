@@ -1,0 +1,25 @@
+---
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "JSON Feed for {{site.domain}}",
+  "description": "{{site.description}}",
+  "home_page_url": "{{site.protocol}}://{{site.domain}}",
+  "feed_url": "{{site.protocol}}://{{site.domain}}/feed.json",
+  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — {{site.protocol}}://{{site.domain}}/feed.json — and add it your reader.",
+  "expired":false,
+  "author": {
+    "name": "{{site.author}}"
+  },
+  "items":[
+    {% for post in site.posts %}
+    {
+      "id":"{{site.protocol}}://{{site.domain}}/{{ post.url }}",
+      "url":"{{site.protocol}}://{{site.domain}}/{{ post.url }}",
+      "title":{{ post.title |smartify |jsonify }},
+      "content_html":{{ post.content | smartify | jsonify }},
+       "date_published":"{{ post.date | date_to_xmlschema }}"
+    }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+}

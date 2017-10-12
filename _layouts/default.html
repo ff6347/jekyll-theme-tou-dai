@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<!--
+https://github.com/joshbuchea/HEAD
+http://gethead.info/ -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1  shrink-to-fit=no">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
+    <!-- <base href="{{site.url}}/{{page.url}}"> -->
+    <meta name="author" content="{{page.author}}">
+    <meta name="robots" content="index,follow"><!-- All Search Engines -->
+    <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+    <meta name="generator" content="jekyll">
+    <link rel="author" href="humans.txt">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+    <title>{{ page.title}}</title>
+    <meta name="description" content="{{page.description}}">
+    <meta name="author" content="{{page.author}}">
+<!--     <link rel="alternate" title="JSON feed for {{site.domain}}" type="application/json" href="{{site.url}}/feed.json" /> -->
+<!--     <link rel="alternate" type="application/atom+xml" title="ATOM feed for {{site.domain}}" href="{{site.url}}/atom.xml" /> -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+      var menu_data = {{ site.data.menu | jsonify }};
+    </script>
+  </head>
+  <body class="fade">
+    {% include header.html %}
+    <section>
+      <div id="main">
+        <div class="menu-trigger"></div>
+        {{ content }}
+        <footer>
+<!--           <noscript>
+          <ul class="social-links">
+            <li class="social">foo</li>
+            <li class="social">bah </li>
+            <li class="social">baz</li>
+          </ul>
+          </noscript> -->
+          <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a> and &hearts; </p>
+        </footer>
+      </div>
+      <!-- close main -->
+    </section>
+    <script type="text/javascript" src="{{site.url}}/assets/js/main.bundle.js"></script>
+  </body>
+</html>

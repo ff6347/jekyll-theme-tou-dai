@@ -1,0 +1,54 @@
+title: A base theme for several sites
+description: It's my first. Be patient.
+theme: jekyll-theme-tou-dai
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  parse_block_html: true
+  footnote_backlink: '↑'
+  syntax_highlighter: rouge
+exclude: # Files that should be excluded from the Jekyll build.
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - .git
+  - .asset-cache
+  - _static-site
+  - .sass-cache
+  - node_modules
+  - webpack.config.js
+  - package.json
+collections:
+  editable_pages:
+    output: true
+    permalink: /:name
+    defaults:
+    - scope:
+        path: ""
+      values:
+        layout: default
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+plugins: [jekyll-paginate, jekyll-nav-gen, jekyll-tidy]
+
+sass: # Sass configuration - compressed and sass_dir of the root Jekyll assets folder.
+    style: compressed
+    sass_dir: _sass
+jekyll_tidy: # Compress the html and beautify it.
+    compress_html: true
+
+
+nav_gen_debug: true
+
+# -----
+#
+# own variables
+author: "Fabian Morón Zirfas"
+email: "fabian.moron.zirfas@gmail.com"
+protocol: "https"
+domain: "example.com"
