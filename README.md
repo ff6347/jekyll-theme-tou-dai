@@ -2,7 +2,7 @@
 
 > 徒弟 (Tou Dai) – Student / Disciple
 
-More a boilerplate then a fully fledged theme. Written for use with [Netlifly CMS](https://www.netlifycms.org/).  
+More a boilerplate then a fully fledged theme. Written for use with [Netlifly CMS](https://www.netlifycms.org/). See it in action over [here](https://jekyll-theme-tou-dai.netlify.com/).  
 
 ## Installation
 
