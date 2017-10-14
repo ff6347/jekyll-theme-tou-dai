@@ -25,6 +25,7 @@ header {
 nav > ul {
     // float: right;
     max-width:800px;
+    border-bottom: 1px solid black;
 }
 
 nav > ul > li {
@@ -49,6 +50,8 @@ nav > ul li ul li {
 nav ul li:hover {
     cursor: pointer;
     position: relative;
+    text-decoration: underline;
+
 }
 nav ul li:hover > ul {
     display: block;
@@ -88,10 +91,15 @@ nav > ul li ul li > a {
     display: none;
 }
 
+[type="checkbox"]:not(:checked) ~ ul {
+    border-bottom: 0px solid black;
+}
+
 @media screen and (max-width: 800px) {
   nav ul {
       display: none;
       padding:0;
+      background:$backgroundColor;
   }
 
   label {
@@ -124,6 +132,10 @@ label:after{
       left: -20px;
       top:20px;
   }
+
+[type="checkbox"]:not(:checked) ~ ul {
+    border-bottom: 0px solid black;
+}
 
   nav a {
       color: #777;

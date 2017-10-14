@@ -4,8 +4,8 @@
     <a href="{{ site.baseurl }}/" class="logo"></a>
       <input type="checkbox" id="nav" />
       <label for="nav"></label>
-  <a href="#" id="menu-icon"></a>
-    <ul id="menu-list">
+      <a href="#" id="menu-icon"></a>
+      <ul id="menu-list">
       {% for item in site.data.menu %}
         <li class="menu-item"{%if forloop.last == true %} id="last-item"{%endif%}>
           <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>

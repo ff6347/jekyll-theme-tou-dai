@@ -11,6 +11,7 @@ Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bl
 
 ## A dead simple theme boilerplate…
 
+![kitty](assets/images/pexels-photo-127028.jpg)  
 
 Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag.   
 Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag.   
