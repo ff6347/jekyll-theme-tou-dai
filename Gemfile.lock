@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-theme-tou-dai (0.2.1)
+    jekyll-theme-tou-dai (0.3.1)
       jekyll (~> 3.6)
       jekyll-autoprefixer (~> 1.0)
       jekyll-feed (~> 0.9)
