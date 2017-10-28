@@ -4,6 +4,13 @@
     "url": "/"
   },{
     "title":"Impressum",
-    "url":"/impressum"
+    "url":"/impressum",
+    "sub":[{
+          "title":"Sub Impressum",
+          "url":"impressum/sub/"
+        },{
+          "title":"Sub2 Impressum",
+          "url":"impressum/sub2/"
+        }]
   }
 ]

@@ -1,77 +1,91 @@
-@import 'typescale', 'fonts', 'menu';
+@import 'typescale',
+'fonts',
+'menu',
+'tables';
 
 /*css taken from http://jgthms.com/web-design-in-4-minutes/*/
+
 body {
-  margin: 0 auto;
-  max-width: 50em;
+    margin: 0 auto;
+    max-width: 50em;
 }
-body {
-  font-family: serif;
+
+* {
+    box-sizing: border-box;
 }
 
 body {
-  /* top | right | bottom | left */
-padding: 0em 0em 4em 0em;
-  // padding: 4em 1em;
+    font-family: serif;
 }
 
-#main{
- padding: 4em 1em;
-
+body {
+    /* top | right | bottom | left */
+    padding: 0em 0em 4em 0em;
+    // padding: 4em 1em;
 }
+
+#main {
+    padding: 4em 1em;
+}
+
 h2 {
-  margin-top: 1em;
-  padding-top: 1em;
+    margin-top: 1em;
+    padding-top: 1em;
 }
 
 body {
-  color: #555;
+    color: #555;
 }
 
 h1,
 h2,
 strong {
-  color: #333;
+    color: #333;
 }
 
 code,
 pre {
-  background: #eee;
+    background: #eee;
 }
 
 code {
-  padding: 2px 4px;
-  vertical-align: text-bottom;
+    padding: 2px 4px;
+    vertical-align: text-bottom;
 }
 
 pre {
-  padding: 1em;
-  white-space: pre-wrap;       /* css-3 */
-  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-  white-space: -pre-wrap;      /* Opera 4-6 */
-  white-space: -o-pre-wrap;    /* Opera 7 */
-  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    padding: 1em;
+    white-space: pre-wrap;
+    /* css-3 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
 }
 
 a {
-  color: #e81c4f;
+    color: #e81c4f;
 }
 
 body {
-  color: #566b78;
+    color: #566b78;
 }
 
 code,
 pre {
-  background: #f5f7f9;
-  /*border-bottom: 1px solid #d8dee9;*/
-  color: #a7adba;
+    background: #f5f7f9;
+    /*border-bottom: 1px solid #d8dee9;*/
+    color: #a7adba;
 }
 
 pre {
-  border-left: 2px solid #69c;
+    border-left: 2px solid #69c;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }

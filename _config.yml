@@ -19,6 +19,9 @@ exclude: # Files that should be excluded from the Jekyll build.
   - node_modules
   - webpack.config.js
   - package.json
+  - "*.gem"
+  - jekyll-theme-tou-dai.gemspec
+  - README.md
 collections:
   editable_pages:
     output: true
@@ -40,7 +43,8 @@ sass: # Sass configuration - compressed and sass_dir of the root Jekyll assets f
     sass_dir: _sass
 jekyll_tidy: # Compress the html and beautify it.
     compress_html: true
-
+nav_gen:
+  xpath: "//h2 | //h3"
 
 # -----
 #

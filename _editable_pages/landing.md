@@ -11,11 +11,17 @@ Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bl
 
 ## A dead simple theme boilerplate…
 
+Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag.   
+
+
 ![kitty](assets/images/pexels-photo-127028.jpg)  
+
+## Some more headlines
 
 Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag.   
 Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag.   
 
+### Some Code
 
 ```js
 /* global document */
@@ -59,6 +65,13 @@ ready(() => {
 
 ```
 
+### Quote
 >Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag.  
 
-Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. `var foo = "bah";` Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. 
+
+## Text
+Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. `var foo = "bah";` Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag.  
+
+### Subtext  
+
+Bla bla bla. Blub blah bla bla. Bla bla. Bla bla bla blah __blah__ _blag_. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag. Bla blah bla bla blah blah. Bla bla. Bla bla bla blah blah blag.  
