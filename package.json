@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "./node_modules/.bin/webpack"
+    "webpack": "./node_modules/.bin/webpack",
+    "build":"cp ./node_modules/normalize.css/normalize.css _sass/_normalize.scss"
   },
   "keywords": [],
   "author": "Fabian Morón Zirfas <fabian.moron.zirfas@gmail.com> (http://fabianmoronzirfas.me)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  },
   "devDependencies": {
     "css-loader": "^0.28.5",
     "document-ready": "github:fabianmoronzirfas/document-ready",

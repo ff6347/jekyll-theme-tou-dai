@@ -1,14 +1,6 @@
-@import 'typescale',
-'fonts',
-'menu',
-'tables';
+@import 'normalize', 'typescale', 'fonts', 'menu', 'tables';
 
 /*css taken from http://jgthms.com/web-design-in-4-minutes/*/
-
-body {
-    margin: 0 auto;
-    max-width: 50em;
-}
 
 * {
     box-sizing: border-box;
@@ -18,13 +10,13 @@ body {
     font-family: serif;
 }
 
-body {
+
+#main {
     /* top | right | bottom | left */
     padding: 0em 0em 4em 0em;
     // padding: 4em 1em;
-}
-
-#main {
+    margin: 0 auto;
+    max-width: 50em;
     padding: 4em 1em;
 }
 
@@ -88,4 +80,23 @@ pre {
 
 img {
     max-width: 100%;
+}
+
+ul {
+    // margin: 0;
+    padding: 0;
+
+}
+
+#logo{
+    text-align: center;
+    font-size: 5em;
+    color: #e81c4f;
+    text-transform: uppercase;
+}
+
+footer{
+    display: flex; /* or inline-flex */
+    justify-content:  center;
+    height: 5em;
 }

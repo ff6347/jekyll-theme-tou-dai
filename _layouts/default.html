@@ -32,23 +32,14 @@ http://gethead.info/ -->
   <body class="fade">
     {% include header.html %}
     {% include logo.html %}
-    <section>
-      <div id="main">
-        <div class="menu-trigger"></div>
+    <div id="main">
+      <div class="menu-trigger"></div>
+      <section>
         {{ content }}
-        <footer>
-<!--           <noscript>
-          <ul class="social-links">
-            <li class="social">foo</li>
-            <li class="social">bah </li>
-            <li class="social">baz</li>
-          </ul>
-          </noscript> -->
-          <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a> and &hearts; </p>
-        </footer>
-      </div>
-      <!-- close main -->
-    </section>
+      </section>
+    </div>
+    <!-- close main -->
+    {% include footer.html %}
     <script type="text/javascript" src="{{site.url}}/assets/js/main.bundle.js"></script>
   </body>
 </html>
