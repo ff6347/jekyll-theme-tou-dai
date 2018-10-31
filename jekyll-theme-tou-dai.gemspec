@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-tou-dai"
-  spec.version       = "0.4.2"
+  spec.version       = "0.4.3"
   spec.authors       = ["fabianmoronzirfas"]
   spec.email         = ["fabian.moron.zirfas@gmail.com"]
 
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_data|assets|_layouts|_includes|_sass|LICENSE|README)}i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.6"
+  spec.add_runtime_dependency "jekyll", "~> 3.6.3"
   spec.add_runtime_dependency "jekyll-nav-gen", "~> 0.1.3"
   spec.add_runtime_dependency "jekyll-tidy", "~> 0.2.2"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.1"
