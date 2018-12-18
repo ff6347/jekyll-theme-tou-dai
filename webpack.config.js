@@ -25,6 +25,6 @@ module.exports = {
     contentBase: path.resolve(__dirname, './')  // New
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin()
+    // new webpack.optimize.UglifyJsPlugin()
   ]
 };
